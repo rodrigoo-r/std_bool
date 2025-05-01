@@ -9,14 +9,3 @@
 */
 
 #include "library.h"
-
-typedef int bool;
-
-// Define true/false values
-#ifndef TRUE
-#define TRUE 1
-#endif
-
-#ifndef FALSE
-#define FALSE 0
-#endif
