@@ -11,6 +11,15 @@
 #ifndef STDBOOL_LIBRARY_H
 #define STDBOOL_LIBRARY_H
 
-// Nothing interesting here
+typedef int bool;
+
+// Define true/false values
+#ifndef TRUE
+#define TRUE 1
+#endif
+
+#ifndef FALSE
+#define FALSE 0
+#endif
 
 #endif //STDBOOL_LIBRARY_H
