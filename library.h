@@ -11,6 +11,11 @@
 #ifndef STDBOOL_LIBRARY_H
 #define STDBOOL_LIBRARY_H
 
+#if defined(__cplusplus)
+extern "C"
+{
+#endif
+
 typedef int bool;
 
 // Define true/false values
@@ -20,6 +25,10 @@ typedef int bool;
 
 #ifndef FALSE
 #define FALSE 0
+#endif
+
+#if defined(__cplusplus)
+}
 #endif
 
 #endif //STDBOOL_LIBRARY_H
