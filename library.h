@@ -16,7 +16,10 @@ extern "C"
 {
 #endif
 
-typedef int bool;
+// Guard against bool type redefinition in C++
+#if !defined(__cplusplus)
+ typedef int bool;
+#endif
 
 // Define true/false values
 #ifndef TRUE
